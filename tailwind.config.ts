@@ -11,7 +11,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "customBg":"#101011"
       },
+    },
+    keyframes: {
+      rise: {
+        '0%': { transform: 'translateY(50%)', opacity: '0' },
+        '100%': { transform: 'translateY(0)', opacity: '1' },
+      },
+    },
+    animation: {
+      rise: 'rise .35s ease-out',
     },
   },
   plugins: [],
