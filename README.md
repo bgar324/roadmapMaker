@@ -10,7 +10,7 @@
 ### Clone the Repository
 ```sh
 git clone https://github.com/bgar324/roadmapMaker/
-cd crud-timeline-app
+cd roadmapMaker
 
 npm install
 
